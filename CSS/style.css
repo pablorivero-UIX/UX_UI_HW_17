@@ -10,7 +10,7 @@
 li, a, button {
     font-family: "roboto", sans-serif;
     font-weight: 800;
-    font-size: 50px;
+    font-size: 20px;
     color: rgb(26, 26, 26);
     text-decoration: none;
 }
@@ -19,11 +19,12 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 100px 10%;
+    padding: 20px 10%;
 }
 
 .logo {
     cursor: pointer;
+    width: 288px;
 }
 
 .nav_links {
@@ -44,7 +45,7 @@ header {
 }
 
 button {
-    padding: 30px 40px;
+    padding: 10px 40px;
     background-color: rgba(47, 47, 47, 1);
     border: none;
     border-radius: 90px;
@@ -83,7 +84,7 @@ body, html {
     overflow: hidden;
     text-align: center;
     color: black;
-    font-weight: 700;
+    font-weight: 20;
 }
 
 .cta {
@@ -95,45 +96,42 @@ body, html {
 }
 
 h1 {
-    font-size: 26px;
     color: rgb(16, 110, 0);
     font-family: "roboto", sans-serif;
-    font-weight: 600;
 }
 
 p {
-    font-size: 14px;
+    font-size: 32px;
     line-height: 18px;
     color: rgb(39, 39, 39);
     font-family: "roboto", sans-serif;
-
 }
 
 .main-intro h1 {
-    font-size: 200px;
+    font-size: 85px;
     text-align: left;
 }
 
 .main-intro p {
-    font-size: 100px;
+    font-size: 33x;
     font-weight: 100;
-    line-height: 150px;
+    line-height: 80px;
     text-align: left;
-    margin-top: 60px;
+    margin-top: 40px;
 }
 
 .main-intro {
-    padding-right: 600px;
-    margin-left: -450px;
-    margin-top: -400px;
+    padding-right: 92px;
+    margin-left: -150px;
+    margin-top: -10px;
 }
 
 .footer a {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    padding: 100px 10%;
-    margin-left: 700px;
+    padding: 60px 50%;
+    margin-left: 180px;
 }
 
 #copy {
